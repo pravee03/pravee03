@@ -6,6 +6,7 @@
   "scripts": {
     "test": "testcafe chrome tests/"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "testcafe-reporter-html": "^1.4.6"
+  }
 }
