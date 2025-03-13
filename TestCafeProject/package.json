@@ -1,0 +1,12 @@
+{
+  "name": "testcafe-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/"
+  },
+  "devDependencies": {
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
