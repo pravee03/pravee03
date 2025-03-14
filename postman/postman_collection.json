@@ -1,0 +1,23 @@
+{
+  "info": {
+    "_postman_id": "12345678-1234-5678-1234-567812345678",
+    "name": "SampleAPICollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Post",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/1",
+          "protocol": "https",
+          "host": ["jsonplaceholder", "typicode", "com"],
+          "path": ["posts", "1"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
