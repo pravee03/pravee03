@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/"
+    "test": "testcafe chrome tests/ --skip-js-errors --reporter html:testcafe-report.html",
+    "excelToCsv": "testcafe chrome converstionXlToCsv/excelToCsv.test.js --skip-js-errors"
   },
   "devDependencies": {
     "testcafe-reporter-html": "^1.4.6"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }
